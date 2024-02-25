@@ -66,6 +66,11 @@ font-family: "Poppins", sans-serif; */
 
  .nav-list_link{
     color: var(--header-tex);
+    transition: opacity 0.2s ease-in;
+ }
+
+ .nav-list_link:hover{
+   opacity: 0.8;
  }
 
  .nav-list_link--active{
@@ -145,4 +150,13 @@ font-family: "Poppins", sans-serif; */
    letter-spacing: 0.15px;
    font-size: 16px;
    font-weight: 500;
+}
+
+.btn:hover{
+   opacity: 0.8;
+}
+
+.btn:active{
+   position: relative;
+   top: 1px;
 }
