@@ -100,7 +100,12 @@ font-family: "Poppins", sans-serif; */
    justify-content: center;
    align-items: center;
 
-   background-color: var(--dark-bg);
+   background-image: url(../img/Abstract.png);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center center;
+
+   background-color: var(--dark-bg);  
    color: var(--header-tex);
    text-align: center;
 }
