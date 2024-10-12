@@ -93,7 +93,7 @@ font-family: "Poppins", sans-serif; */
 
 .header{
    padding: 40px 0;
-   min-height: 450px;
+   min-height: 300px;
 
    display: flex;
    justify-content: center;
