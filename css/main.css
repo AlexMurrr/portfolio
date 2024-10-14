@@ -68,7 +68,7 @@ font-family: "Poppins", sans-serif; */
     transition: opacity 0.2s ease-in;
  }
 
- .nav-list_link:hover{
+ /* .nav-list_link:hover{
    opacity: 0.8;
  }
 
@@ -87,7 +87,7 @@ font-family: "Poppins", sans-serif; */
     height: 2px;
     width: 100%;
     background-color: var(--accent);
- }
+ } */
 
  /* header */
 
