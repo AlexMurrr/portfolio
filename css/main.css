@@ -68,7 +68,7 @@ font-family: "Poppins", sans-serif; */
     transition: opacity 0.2s ease-in;
  }
 
- /* .nav-list_link:hover{
+ .nav-list_link:hover{
    opacity: 0.8;
  }
 
@@ -86,10 +86,19 @@ font-family: "Poppins", sans-serif; */
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--accent);
- } */
+    background-color: var(--accent); 
+    transform: scaleX(0);   
+ } 
 
- /* header */
+ .nav-list_link--active:hover::before {
+   transform: scaleX(1); /* Show underline on hover */
+ }
+
+ .nav-list_link--active:active::before,.nav-list_link--active:focus::before {
+   transform: scaleX(1); /* Show underline when link is active */
+   }
+
+  /* header */
 
 .header{
    padding: 40px 0;
