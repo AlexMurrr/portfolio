@@ -68,35 +68,7 @@ font-family: "Poppins", sans-serif; */
     transition: opacity 0.2s ease-in;
  }
 
- .nav-list_link:hover{
-   opacity: 0.8;
- }
-
- .nav-list_link--active{
-    position: relative;
- }
-
- .nav-list_link--active::before{
-    content: "";
-
-    position: absolute;
-    left: 0;
-    top: 100%;
-
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color: var(--accent); 
-    transform: scaleX(0);   
- } 
-
- .nav-list_link--active:hover::before {
-   transform: scaleX(1); /* Show underline on hover */
- }
-
- .nav-list_link--active:active::before,.nav-list_link--active:focus::before {
-   transform: scaleX(1); /* Show underline when link is active */
-   }
+ 
 
   /* header */
 
