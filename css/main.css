@@ -51,7 +51,11 @@ font-family: "Poppins", sans-serif; */
  .logo{
     color:var(--header-tex);
     font-size: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;    
+ }
+ .logo:hover{
+   opacity: 0.8;
+   color: var(--purple);
  }
 
  .nav-list{
@@ -68,7 +72,15 @@ font-family: "Poppins", sans-serif; */
     transition: opacity 0.2s ease-in;
  }
 
- 
+ .nav-list_link:hover{
+   opacity: 0.8;
+   color: var(--purple);
+ }
+
+ .nav-list a.active {
+   color: red; /* Цвет для активной ссылки */
+   font-weight: bold; /* Жирный текст для выделения */
+}
 
   /* header */
 
